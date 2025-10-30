@@ -13,7 +13,7 @@ import android.hardware.usb.UsbInterface;
 import android.hardware.usb.UsbManager;
 import android.os.Bundle;
 import android.os.Handler;
-import android.support.v7.app.ActionBarActivity;
+import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
@@ -40,7 +40,7 @@ import static com.mrkid.flashbot.Message.DEVICE_NOT_FOUND;
 import static com.mrkid.flashbot.Message.FLASHING;
 import static com.mrkid.flashbot.Message.INSTALLING_PROGRESS;
 
-public class MainActivity extends ActionBarActivity {
+public class MainActivity extends AppCompatActivity {
 
 
     private Handler handler;
